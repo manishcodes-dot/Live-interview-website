@@ -1,0 +1,27 @@
+{
+  "name": "coderoom-backend",
+  "version": "1.0.0",
+  "description": "CodeRoom API Server — Interview sessions, sandbox execution, and WebSocket collaboration",
+  "main": "dist/server.js",
+  "scripts": {
+    "dev:backend": "tsx watch src/server.ts",
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "uuid": "^11.0.3",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.9.0",
+    "@types/uuid": "^10.0.0",
+    "@types/ws": "^8.5.13",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
