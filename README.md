@@ -8,7 +8,7 @@
 ## 📸 Platform Preview
 
 <p align="center">
-  <img src="./docs/images/platform-overview.png" alt="CodeRoom Platform Overview" width="92%" />
+  <img src="./docs/images/platform-overview.svg" alt="CodeRoom Platform Overview" width="92%" />
 </p>
 
 ---
