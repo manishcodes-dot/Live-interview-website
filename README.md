@@ -7,7 +7,9 @@
 
 ## 📸 Platform Preview
 
-![CodeRoom Platform Overview](./docs/images/platform-overview.png)
+<p align="center">
+  <img src="./docs/images/platform-overview.png" alt="CodeRoom Platform Overview" width="92%" />
+</p>
 
 ---
 
