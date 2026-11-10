@@ -1,24 +1,42 @@
-# Logs
-logs
+# ─── Dependencies ────────────────────────────────────────────────────────────
+node_modules/
+.pnp
+.pnp.js
+
+# ─── Environment Variables & Sensitive Credentials ───────────────────────────
+.env
+.env.*
+!.env.example
+*.env
+*.env.local
+
+# API Keys & Certificates
+*.pem
+*.key
+*.cert
+*.crt
+
+# ─── Production Builds ───────────────────────────────────────────────────────
+dist/
+dist-ssr/
+build/
+*.tsbuildinfo
+
+# ─── Logs ────────────────────────────────────────────────────────────────────
+logs/
 *.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
-lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
+# ─── OS Metadata ─────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
 
-# Editor directories and files
+# ─── IDE & Editor ────────────────────────────────────────────────────────────
 .vscode/*
 !.vscode/extensions.json
-.idea
-.DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
+.idea/
 *.sw?
